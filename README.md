@@ -1,4 +1,4 @@
-﻿# Things to change
+# Things to change
 
 #### I have Enabled A LOT of menus and most of these changes can also be made trough menus or GCODE
 
@@ -11,6 +11,8 @@
 - I have enabled CLASSIC_JERK and disabled JUNCTION_DEVIATION to have control over it with slicer settings
 - Set NOZZLE_TO_PROBE_OFFSET and any other changes required for your BL-Touch
 - Set LIN_ADVANCE (if you can lololololol, I'll be experimenting with this on the bowden extruder)
+
+---
 
 # Marlin 3D Printer Firmware
 
