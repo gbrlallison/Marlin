@@ -1,4 +1,16 @@
-﻿# Marlin 3D Printer Firmware
+﻿# Things to change
+
+### I have Enabled A LOT of menus and most of these changes can also be made trough menus or GCODE
+### [Marlin GCODE Wiki](https://marlinfw.org/meta/gcode/)
+Set CUSTOM_MACHINE_NAME
+Hot end PID - PIDTEMP
+Bed PID - PIDTEMPBED (Check Marlin Gcodes wiki to set this up)
+Calibrate E-Steps - DEFAULT_AXIS_STEPS_PER_UNIT (97 is what I got on my aluminum extruder) 
+I have enabled CLASSIC_JERK and disabled JUNCTION_DEVIATION to have control over it with slicer settings
+Set NOZZLE_TO_PROBE_OFFSET and any other changes required for your BL-Touch
+Set LIN_ADVANCE (if you can lololololol, I'll be experimenting with this on the bowden extruder)
+
+# Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
